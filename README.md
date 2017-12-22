@@ -8,13 +8,23 @@
 
 try {
     //IOS
+    
     window.webkit.messageHandlers.NativeMethod.functionName();
+    
 }catch(e){
-	try{		
+
+	try{
+	
 	    //Android
+	    
 	    window.control.functionName();
+	    
 	}catch(eg)
+	
 	{
+	
 		alert("无法跳转XX函数");
+		
 	}
+	
 }
